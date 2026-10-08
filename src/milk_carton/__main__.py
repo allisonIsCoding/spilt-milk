@@ -34,10 +34,32 @@ def main(argv: list[str] | None = None) -> int:
     if args.set:
         cfg = cfg.replace(**_parse_set(args.set))
 
-    carton = Carton(cfg)
-    lay = layout(cfg, carton)
     out = Path(args.out)
     out.mkdir(parents=True, exist_ok=True)
+
+    if cfg.form == "upright":
+        from . import spout_figure, upright
+        u = upright.Upright(cfg)
+        files = {
+            "upright_elevation.svg": upright.elevation(u),
+            "upright_plan.svg": upright.plan(u),
+            "spout.svg": spout_figure.render(u),
+        }
+        for name, content in files.items():
+            (out / name).write_text(content)
+        text = upright.report(u)
+        (out / "report.md").write_text(text)
+        (out / "config.used.json").write_text(json.dumps(cfg.to_dict(), indent=2) + "\n")
+        if args.png:
+            import cairosvg
+            for name in files:
+                cairosvg.svg2png(url=str(out / name), write_to=str(out / name.replace(".svg", ".png")), scale=1.5)
+        print(text)
+        print(f"Wrote {', '.join(files)} and report.md to {out}/")
+        return 0 if not any(l == "fail" for l, _ in u.issues) else 1
+
+    carton = Carton(cfg)
+    lay = layout(cfg, carton)
 
     files = {
         "elevation.svg": elevation.render(cfg, carton, lay),

@@ -1,21 +1,26 @@
 # Spilled Milk
 
-A 40 ft wood-built, burnable milk carton, tipped over and spilling, for Burning Man.
-The "spill" is a slide, and the inside is a railed staircase up to the spout.
+A wood-built, burnable milk carton for Burning Man, standing upright with its spout
+pulled open. Milk spills out as a slide, and the inside is a railed staircase that
+spirals up the walls. (The earlier tipped-over design is kept under `outputs/tipped/`
+and `config/tipped.json`; see `docs/design-decisions.md` for why it changed.)
 
 This repo holds the design notes and a small Python program that draws the
 schematics from a set of parameters, so a change (tilt, stair width, slide
 shape) is one edit away and the numbers stay consistent with the drawings.
 
-![Side elevation](outputs/elevation.png)
-![Stair plan](outputs/plan.png)
+![How the spout opens](outputs/spout.png)
+![Side view, slide from the top spout](outputs/upright_elevation.png)
+![Stair plan](outputs/upright_plan.png)
+![Side view, slide from a side outlet](outputs/upright_side_outlet.png)
 
 ## Quick start
 
 No dependencies are needed to generate the SVGs (Python 3.10+).
 
 ```bash
-PYTHONPATH=src python3 -m milk_carton              # writes outputs/elevation.svg, plan.svg, report.md
+PYTHONPATH=src python3 -m milk_carton              # upright: spout, side views, plan, report.md
+PYTHONPATH=src python3 -m milk_carton --config config/tipped.json --out outputs/tipped   # the old tipped design
 PYTHONPATH=src python3 -m milk_carton --png        # also PNGs (pip install cairosvg)
 PYTHONPATH=src python3 -m milk_carton --sweep      # adds the stair width x landing interval table
 PYTHONPATH=src python3 -m milk_carton --set tilt_deg=45 --set stair_width_ft=4 --out /tmp/try
@@ -32,7 +37,10 @@ The command exits non-zero when a stair check fails, so it is safe to use in CI.
 | `src/milk_carton/config.py` | Every parameter, in feet and degrees. `config/default.json` mirrors it. |
 | `src/milk_carton/geometry.py` | Carton shell, tilt transform, climbing surfaces, spout, slide path. |
 | `src/milk_carton/stairs.py` | Zigzag stair layout plus the checks (pitch, clearance, headroom, fit). |
-| `src/milk_carton/elevation.py`, `plan.py` | SVG renderers for the side view and the top-down stair plan. |
+| `src/milk_carton/upright.py` | Upright carton: spout geometry, spiral stairs and checks, both slide options, drawings. |
+| `src/milk_carton/spout_figure.py` | The "how the spout opens" explainer, drawn from the same model. |
+| `src/milk_carton/zigzag.py` | Diagonal /\/\ stairs for the tipped design (shows why they do not fit). |
+| `src/milk_carton/elevation.py`, `plan.py` | Tipped design: side view and stair plan. |
 | `tests/` | Locks in the key dimensions and the stair findings. |
 | `docs/design-decisions.md` | What is decided, what is assumed, and how we got here. |
 | `docs/stair-analysis.md` | Why the stairs look the way they do, with the width sweep. |

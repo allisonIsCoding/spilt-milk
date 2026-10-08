@@ -17,9 +17,9 @@ class Config:
     # --- carton shell -----------------------------------------------------
     tilt_deg: float = 50.0          # tip angle from vertical
     height_ft: float = 40.0         # overall height, untilted
-    width_ft: float = 16.0          # square footprint, both directions
-    body_ft: float = 28.0           # straight-sided body
-    roof_ft: float = 9.0            # gable rise above the body
+    width_ft: float = 18.9          # square footprint, both directions
+    body_ft: float = 30.7           # straight-sided body
+    roof_ft: float = 6.9            # gable rise above the body
     # fin height is whatever is left: height - body - roof
     ridge_inset_ft: float = 1.2     # fin starts this far in from the left wall
     beak_ft: float = 3.3            # how far the spout tip overhangs the right wall
@@ -32,7 +32,30 @@ class Config:
     slide_half_width_ft: float = 1.8
     slide_support_fracs: tuple = (0.22, 0.45, 0.62)  # where posts go along the run
 
-    # --- stairs (zigzag switchbacks across the carton width) -------------
+    # --- form -------------------------------------------------------------
+    form: str = "upright"           # "upright" (standing on its base) or "tipped" (tilt_deg over)
+
+    # --- upright carton ------------------------------------------------------
+    length_ft: float | None = 25.3  # along the ridge; the spout end is width_ft across (None = square)
+    max_flight_run_ft: float = 10.0  # walls longer than this get a mid-wall landing
+    wall_ft: float = 0.5            # wall thickness
+    spiral_flights: int = 6         # flights in the spiral up to the eave deck
+    eave_deck_ft: float = 24.0      # full floor just under the roof (headroom limit at the walls)
+    spout_tip_out_ft: float = 4.8   # opened spout: how far the tip sticks out past the end wall
+    spout_tip_above_ft: float = 1.4  # opened spout: tip height above the top of the fin
+    spout_crease_back_ft: float = 2.0  # opened spout: where the side flap meets the lifted fin, back from the end wall
+    roof_bend_side_back_ft: float = 4.5  # opened spout: where the roof bends reach the long sides, back from the end wall
+    fin_lift_back_ft: float = 8.7   # opened spout: where the fin starts lifting, back from the end wall
+    side_outlet_ft: float = 12.0    # slide: height of the tear in the spout-end wall (a landing there)
+    side_slide_deg: float = 24.0    # slide: target grade
+
+    # --- stairs -----------------------------------------------------------
+    # "diagonal": flights run diagonally between landings on alternating sides (/\/\ from above)
+    # "switchback": flights run straight across the width, stacked along the carton
+    stair_layout: str = "diagonal"
+    landing_size_ft: float = 6.0    # diagonal layout: landings are this size, square
+    landing_x_ft: tuple | None = None  # diagonal layout: landing centres along X (None = search)
+    door_x_ft: float | None = None  # diagonal layout: door centre along X (None = middle of the V)
     stair_width_ft: float = 4.5     # clear width between handrails
     landing_interval_ft: float = 4.0  # vertical gap between landings
     landing_depth_ft: float | None = None  # defaults to stair width
@@ -75,6 +98,8 @@ class Config:
             raise KeyError(f"Unknown config keys: {sorted(unknown)}")
         if "slide_support_fracs" in data:
             data = {**data, "slide_support_fracs": tuple(data["slide_support_fracs"])}
+        if data.get("landing_x_ft") is not None:
+            data = {**data, "landing_x_ft": tuple(data["landing_x_ft"])}
         cfg = cls(**data)
         cfg.validate()
         return cfg

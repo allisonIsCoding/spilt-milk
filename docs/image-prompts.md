@@ -1,45 +1,75 @@
 # Image prompts (for Gemini and other generators)
 
-Start a new chat, attach a photo of a real pull-open spout, and say "match this spout
-exactly." Change one thing at a time in follow-ups.
+Current design: the upright carton, classic red and white, with the slide coming out of a
+tear in the spout-end wall. Numbers come from `config/default.json`
+(see `outputs/report.md`).
 
-## Exterior (updated for the 50 degree tilt)
+How to use: start a new chat, paste the full prompt, and attach `outputs/spout.png` and
+`outputs/upright_elevation.png` as shape references (say "use these drawings for the shape
+and proportions only, not the colours"). Then change one thing at a time in follow-ups.
 
-> Create a photorealistic wide shot of a monumental 40-foot-tall art installation at
-> Burning Man: a classic gable-top milk carton, tipped at about 50 degrees and partially
-> sunk into the desert playa so it rests on a flat base. It is built entirely from plywood
-> and lumber, then fully painted in vintage dairy-carton blue and white, slightly weathered
-> and sun-faded. Painted plywood panel seams are subtly visible, but there is no exposed
-> scaffolding.
+## Full prompt
+
+> Create a photorealistic wide shot of a monumental art installation at Burning Man: a
+> giant classic gable-top milk carton, about 40 feet tall, standing upright on the flat,
+> pale, cracked desert playa. It is built entirely from plywood and lumber and fully
+> painted. Subtle panel seams and a little dust and sun-fading are visible, but there is
+> no exposed scaffolding or framing.
 >
-> THE SPOUT: The carton has exactly one opening, the built-in pull-open pouring spout of a
-> real gable-top carton. It is the folded triangular flap at the end of the roof ridge, in
-> line with the top of the carton and opening along the ridge toward the end of the carton.
-> Match the spout in the attached reference photo exactly. There is no other opening, hole,
-> or spout anywhere on the carton.
+> SHAPE AND PROPORTIONS: It has the proportions of a one-gallon carton. The footprint is a
+> rectangle about 25 feet long by 19 feet wide. The straight vertical walls rise about
+> 31 feet. Above them sits a short gable roof, two sloping panels meeting at a ridge that
+> runs along the long direction, about 7 feet tall. A thin, flat, vertical sealed fin about
+> 2 feet tall runs along the top of the ridge. The roof and fin together are only the top
+> quarter of the carton; the walls are most of its height.
 >
-> THE SLIDE: A thick, glossy white river of "milk" flows directly out of that one spout.
-> It leaves the spout nearly level, rolls over a lip, drops steeply down toward the ground,
-> and eases out into a large organic puddle. It is a smooth, sculpted, painted-wood slide
-> that looks like real milk. Several children and adults are sliding down it for scale.
+> THE SPOUT: The spout is on one of the two narrow (19-foot) ends, at the top, and it is
+> pulled open exactly like a real carton. The triangular end of the roof has swung outward,
+> hinged at the top of the end wall, forming a pointed V-shaped pouring spout. Its tip sticks
+> out about 5 feet past the end wall and sits slightly higher than the fin. The roof corners
+> next to the spout are bent along diagonal creases, and the end of the fin is lifted up
+> toward the spout tip. The whole diamond-shaped top of the spout is open, facing up at the
+> sky, dark inside.
 >
-> Setting: Black Rock City, golden-hour dusk light, a crowd and a few art cars in the distance.
+> COLOURS: Classic retro red-and-white milk carton. The walls are crisp white with bold red
+> panels and bands; the roof panels and fin are red. The long side carries large, simple,
+> retro lettering that says "MILK". No brand names, logos, or other text.
 >
-> Leave out: any extra structure attached to the side of the carton, any text panels or
-> graphics, any second opening under the spout, and any visible scaffolding.
+> THE SLIDE: About a third of the way up the narrow spout-end wall (around 12 feet up),
+> near one corner, the wall is torn open in a jagged rip, as if the carton has burst. A thick,
+> glossy white stream of milk gushes out of the tear and becomes a smooth sculpted wooden
+> slide painted milk-white. It leaves the tear nearly level, curves over, slopes down at a
+> gentle playground angle, and eases out about 30 feet from the carton into a wide, low,
+> splashy puddle of milk on the ground. A few slim white posts support the slide. People
+> are sliding down it and landing in the puddle.
+>
+> PEOPLE AND SCALE: A doorway at ground level on the long side near one corner, with people
+> walking in. A few people in colourful Burning Man costumes stand around the base for scale
+> (an adult is about one-seventh of the wall height).
+>
+> SETTING AND CAMERA: Black Rock City at golden hour, warm low sunlight, long shadows, a
+> little dust in the air, distant mountains and a few far-off art pieces and art cars. Camera
+> at eye level, a three-quarter view from the front corner so both the long side and the
+> spout end with the slide are visible.
+>
+> LEAVE OUT: a tipped-over or tilted carton; a slide that wraps around the carton; a
+> plastic jug or glass bottle; a screw cap; any opening other than the open spout on top and
+> the one tear with the slide; exposed scaffolding; brand logos; extra text.
 
-## Interior
+## Short version
 
-> Interior of a giant wooden milk carton tipped at 50 degrees, looking up the sloped floor
-> toward a triangular opening of daylight at the top. A wide wooden zigzag staircase with
-> wooden railings climbs in switchbacks across the width of the carton, with a square
-> landing at each turn. People go up and down at the same time. The walls are painted blue
-> and white plywood, warm light comes through gaps, and the scale is huge and playful.
-> Photorealistic.
+> Photorealistic: a 40 ft tall wooden milk carton art installation standing upright on the
+> Burning Man playa at golden hour. One-gallon proportions (25 x 19 ft footprint, tall walls,
+> short gable roof with a thin fin). Classic retro red-and-white carton paint with big "MILK"
+> lettering, no brands. The spout on one narrow end is pulled open like a real carton, its
+> tip just above the fin, the diamond-shaped top open to the sky. About 12 ft up that end
+> wall, a jagged tear gushes glossy white milk that becomes a sculpted white wooden slide
+> curving down into a wide milk puddle, with people sliding. People in costumes for scale.
+> No tilted carton, no wrap-around slide, no logos, no scaffolding.
 
-## Tips
+## Follow-up edits that tend to help
 
-- If a "lost child" panel or extra opening keeps appearing, remove that wording and
-  describe only what you want to see.
-- Keep the interior and exterior as separate images.
-- Reference photos help more than description for the spout.
+- "Make the walls taller and the roof shorter: the roof and fin are only the top quarter."
+- "The spout tip must stick out past the end wall and rise just above the fin."
+- "Only one tear, on the narrow end with the spout, about a third of the way up."
+- "Keep the slide straight out from the tear; it does not go around the carton."

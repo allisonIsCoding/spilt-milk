@@ -52,6 +52,8 @@ def render(cfg: Config, carton: Carton | None = None, lay: Layout | None = None)
         cx, cy = (p0[0] + p1[0]) / 2, (p0[1] + p1[1]) / 2
         svg.text(cx, cy - 2, label, "h", "middle")
         svg.text(cx, cy + 14, f"{ln.z:.0f} ft up", "xs", "middle")
+    for poly in getattr(lay, "junctions", []):
+        svg.polygon([PP(*p) for p in poly], "landing")
     for x0, x1, y0, y1 in lay.deck_extra:
         p0, p1 = PP(x0, y1), PP(x1, y0)
         svg.rect(p0[0], p0[1], p1[0] - p0[0], p1[1] - p0[1], "landing")

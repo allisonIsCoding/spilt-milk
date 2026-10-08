@@ -33,8 +33,9 @@ jobs:
         id: gen
         run: |
           set +e
-          milk-carton --config config/default.json --png --sweep --out outputs
+          milk-carton --config config/default.json --png --out outputs
           echo "status=$?" >> "$GITHUB_OUTPUT"
+          milk-carton --config config/tipped.json --png --sweep --out outputs/tipped || true
       - uses: actions/upload-artifact@v4
         with:
           name: schematics

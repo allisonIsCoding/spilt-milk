@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="886" viewBox="0 0 1280 886" role="img">
+<title>How the spout opens</title>
+<desc>Side and top views of the carton, closed and opened, to scale.</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M2 1L8 5L2 9" fill="none" stroke="context-stroke" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></marker></defs>
+<style>
+text { font-family: -apple-system, "Segoe UI", Helvetica, Arial, sans-serif; fill: #3d3d3a; font-size: 13px; }
+.h { font-size: 15px; font-weight: 600; fill: #2c2c2a; }
+.s { fill: #5f5e5a; }
+.xs { fill: #5f5e5a; font-size: 11.5px; }
+.leader { stroke: #888780; stroke-width: 1; stroke-dasharray: 3 3; fill: none; }
+.dim { stroke: #888780; stroke-width: 1; fill: none; }
+.shell { fill: #e6f1fb; stroke: #185fa5; stroke-width: 1.4; stroke-linejoin: round; }
+.mouth { fill: #042c53; }
+.ground { fill: #f1efe8; stroke: #b4b2a9; stroke-width: 1; }
+.footing { fill: none; stroke: #888780; stroke-width: 1; stroke-dasharray: 5 4; }
+.flight { fill: #fac775; fill-opacity: 0.75; stroke: #ba7517; stroke-width: 0.8; }
+.landing { fill: #faeeda; stroke: #854f0b; stroke-width: 1; }
+.rail { stroke: #888780; stroke-width: 1.4; fill: none; }
+.post { stroke: #888780; stroke-width: 1.4; fill: none; }
+.door { fill: none; stroke: #854f0b; stroke-width: 1.4; stroke-dasharray: 4 3; }
+.milk { fill: none; stroke: #f4f8fc; stroke-linecap: round; }
+.milk-edge { fill: none; stroke: #85b7eb; stroke-linecap: round; }
+.puddle { fill: #f4f8fc; stroke: #85b7eb; stroke-width: 1; }
+.person { stroke: #888780; stroke-width: 1.6; fill: none; stroke-linecap: round; }
+</style>
+<rect width="1280" height="886" fill="#fcfbf8"/>
+<text class="h" x="24" y="30" text-anchor="start">How the spout opens (whole carton, to scale)</text>
+<text class="s" x="24" y="50" text-anchor="start">25.3 x 18.9 ft footprint (spout on the 18.9 ft end), walls 30.7 ft, fin top 40 ft: the roof and fin are the top 23% of the carton.</text>
+<text class="s" x="24" y="68" text-anchor="start">Opened: the end of the gable swings out on a hinge at the top of the wall. The roof corners and side flaps bend along the dashed creases, and the whole diamond on top is the opening.</text>
+<text class="h" x="50" y="100" text-anchor="start">Closed</text>
+<text class="xs" x="50" y="118" text-anchor="start">Side view</text>
+<line class="dim" x1="30" y1="606.4" x2="416.3" y2="606.4" />
+<polygon class="shell" points="50,606.4 328.3,606.4 328.3,268.7 50,268.7" />
+<polygon class="shell" points="50,268.7 328.3,268.7 328.3,192.8 50,192.8" style="fill:#d7e7f7"/>
+<polygon class="shell" points="50,192.8 328.3,192.8 328.3,166.4 50,166.4" />
+<text class="xs" x="44" y="272.7" text-anchor="end">30.7 ft</text>
+<text class="xs" x="44" y="170.4" text-anchor="end">40 ft</text>
+<text class="xs" x="50" y="644.4" text-anchor="start">Top view</text>
+<polygon class="shell" points="50,826.5 277.7,826.5 277.7,656.4 50,656.4" />
+<line class="rail" x1="50" y1="741.45" x2="277.7" y2="741.45" style="stroke:#185fa5;stroke-width:3"/>
+<text class="h" x="650" y="100" text-anchor="start">Opened</text>
+<text class="xs" x="650" y="118" text-anchor="start">Side view</text>
+<line class="dim" x1="630" y1="606.4" x2="1016.3" y2="606.4" />
+<polygon class="shell" points="650,606.4 928.3,606.4 928.3,268.7 650,268.7" />
+<polygon class="shell" points="650,268.7 928.3,268.7 857.3,192.8 650,192.8" style="fill:#d7e7f7"/>
+<polygon class="shell" points="650,192.8 857.3,192.8 832.6,166.4 650,166.4" />
+<polygon class="shell" points="928.3,268.7 832.6,166.4 906.3,151" style="fill:#cfe1f4"/>
+<polygon class="shell" points="928.3,268.7 906.3,151 981.1,151" />
+<line class="dim" x1="928.3" y1="268.7" x2="832.6" y2="166.4" stroke-dasharray="5 4" style="stroke:#185fa5"/>
+<line class="dim" x1="928.3" y1="268.7" x2="906.3" y2="151" stroke-dasharray="5 4" style="stroke:#185fa5"/>
+<polygon class="mouth" points="835.9,166.95 906.3,151.55 978.35,151.55 965.7,157.05 906.3,155.95" />
+<text class="xs" x="989.1" y="155" text-anchor="start">tip 41.4 ft, 4.8 ft out</text>
+<text class="xs" x="936.3" y="272.7" text-anchor="start">hinge at the top of the wall (30.7 ft)</text>
+<text class="xs" x="644" y="272.7" text-anchor="end">30.7 ft</text>
+<text class="xs" x="644" y="170.4" text-anchor="end">40 ft</text>
+<text class="xs" x="650" y="644.4" text-anchor="start">Top view</text>
+<polygon class="shell" points="650,826.5 877.7,826.5 877.7,656.4 650,656.4" />
+<polygon class="shell" points="799.4,741.45 877.7,826.5 920.9,741.45 877.7,656.4" style="fill:#cfe1f4"/>
+<line class="dim" x1="799.4" y1="741.45" x2="837.2" y2="826.5" stroke-dasharray="5 4" style="stroke:#185fa5"/>
+<line class="dim" x1="799.4" y1="741.45" x2="837.2" y2="656.4" stroke-dasharray="5 4" style="stroke:#185fa5"/>
+<line class="rail" x1="650" y1="741.45" x2="799.4" y2="741.45" style="stroke:#185fa5;stroke-width:3"/>
+<polygon class="mouth" points="802.55,741.45 876.8,823.35 917.75,741.45 876.8,659.55" />
+<text class="xs" x="928.9" y="745.45" text-anchor="start">the whole diamond is open (faces up)</text>
+<text class="xs" x="795.4" y="695.45" text-anchor="end">fin starts lifting</text>
+<line class="leader" x1="769.4" y1="699.45" x2="799.4" y2="738.45" />
+</svg>
