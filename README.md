@@ -9,6 +9,8 @@ This repo holds the design notes and a small Python program that draws the
 schematics from a set of parameters, so a change (tilt, stair width, slide
 shape) is one edit away and the numbers stay consistent with the drawings.
 
+![Concept render](docs/concept-render.jpg)
+
 ![How the spout opens](outputs/spout.png)
 ![Side view, slide from the top spout](outputs/upright_elevation.png)
 ![Stair plan](outputs/upright_plan.png)
