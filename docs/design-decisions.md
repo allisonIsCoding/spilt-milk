@@ -14,6 +14,7 @@ a yes or no. **Open** means it is still undecided (see `open-questions.md`).
 - **Decided.** The carton is sunk slightly into the playa so it has a flat base.
 - **Decided.** No extra structure on the side of the carton and no "lost child" panel.
 - **Context.** This feeds the Black Rock City honoraria art grant letter of intent.
+  Deadline and status are in `funding.md` and `key-dates.md`.
 
 ## Tilt
 
