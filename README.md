@@ -1,4 +1,4 @@
-# BM Milk Carton
+# Burning Man Milk Carton
 
 A 40 ft wood-built, burnable milk carton, tipped over and spilling, for Burning Man.
 The "spill" is a slide, and the inside is a railed staircase up to the spout.
