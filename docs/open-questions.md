@@ -29,3 +29,10 @@
 
 - Check the carton proportions against a real half-gallon carton.
 - Check the 2.8 ft sink against the footing design.
+
+## Project tracking
+
+Design questions stay on this page. Dates are in `key-dates.md`. Grants, the
+working budget, and the LLC vs fiscal sponsor decision are in `funding.md`,
+`budget.md`, and `open-decisions.md` (that last one is not legal advice).
+Lumber yards and what not to burn are in `materials.md`.

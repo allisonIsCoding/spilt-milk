@@ -8,6 +8,7 @@ and `config/tipped.json`; see `docs/design-decisions.md` for why it changed.)
 This repo holds the design notes and a small Python program that draws the
 schematics from a set of parameters, so a change (tilt, stair width, slide
 shape) is one edit away and the numbers stay consistent with the drawings.
+The same repo tracks the 2027 project: key dates, grants, budget, and sourcing.
 
 ![Concept render](docs/concept-render.jpg)
 
@@ -15,6 +16,31 @@ shape) is one edit away and the numbers stay consistent with the drawings.
 ![Side view, slide from the top spout](outputs/upright_elevation.png)
 ![Stair plan](outputs/upright_plan.png)
 ![Side view, slide from a side outlet](outputs/upright_side_outlet.png)
+
+## Project tracking
+
+Co-leads are Allison Jacobs and Quentin Helgren. The shared Google Calendar
+named "Spilled Milk" is the live date source.
+[docs/key-dates.md](docs/key-dates.md) is a snapshot last synced October 8, 2026.
+Times below are Pacific.
+
+**Next deadlines:**
+
+| When | Track | What |
+|---|---|---|
+| Wed Oct 14, 4:00–5:30pm PT | Honoraria | BRC Honoraria LOI Q&A (RSVP) |
+| Thu Oct 15, 11:59am PT | Art Grant | CCI Quick Grant due (up to $600) |
+| Thu Oct 15, all day | Art Grant | Rbhu Gives Back applications close |
+| Thu Oct 22, 10:00–11:30am PT | Honoraria | BRC Honoraria LOI Q&A (second session) |
+| Thu Oct 29, 5:00pm PDT | Honoraria | 2027 BRC Honoraria letter of intent due |
+
+Later dates, including the approximate Mutant Vehicle windows, are in the key
+dates doc. Also: [docs/funding.md](docs/funding.md),
+[docs/budget.md](docs/budget.md),
+[docs/open-decisions.md](docs/open-decisions.md),
+[docs/fundraising.md](docs/fundraising.md),
+[docs/materials.md](docs/materials.md).
+Design questions stay in [docs/open-questions.md](docs/open-questions.md).
 
 ## Quick start
 
@@ -48,6 +74,14 @@ The command exits non-zero when a stair check fails, so it is safe to use in CI.
 | `docs/stair-analysis.md` | Why the stairs look the way they do, with the width sweep. |
 | `docs/open-questions.md` | What still needs an answer (several need an engineer). |
 | `docs/image-prompts.md` | Prompts for Gemini and other image generators. |
+| `docs/key-dates.md` | Snapshot of the shared Spilled Milk calendar. Live source is still the calendar. |
+| `docs/funding.md` | Honoraria, Rbhu Gives Back, CCI Quick Grant, and Zellerbach. |
+| `docs/budget.md` | Working ~$80k total. Named line items are TBD, not guessed. |
+| `docs/open-decisions.md` | LLC vs fiscal sponsor. Not legal advice. |
+| `docs/fundraising.md` | Dairy partner tracker. No outreach sent yet. |
+| `docs/dairy-partner-shortlist.md` | Full Bay Area dairy shortlist behind the tracker. |
+| `docs/materials.md` | Lumber sources and burn / treated-wood flags. |
+| `docs/lumber-shortlist.md` | Full Bay Area lumber shortlist behind the summary. |
 | `outputs/` | Generated drawings and report (committed so they show on GitHub). |
 
 ## Status
