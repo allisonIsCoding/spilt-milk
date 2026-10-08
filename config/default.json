@@ -1,0 +1,30 @@
+{
+  "tilt_deg": 50.0,
+  "height_ft": 40.0,
+  "width_ft": 16.0,
+  "body_ft": 28.0,
+  "roof_ft": 9.0,
+  "ridge_inset_ft": 1.2,
+  "beak_ft": 3.3,
+  "mouth_len_ft": 8.8,
+  "mouth_depth_ft": 3.6,
+  "sink_ft": 2.8,
+  "slide_run_ft": 23.75,
+  "slide_half_width_ft": 1.8,
+  "slide_support_fracs": [
+    0.22,
+    0.45,
+    0.62
+  ],
+  "stair_width_ft": 4.5,
+  "landing_interval_ft": 4.0,
+  "landing_depth_ft": null,
+  "flight_skew_ft": 0.0,
+  "clearance_ft": 0.5,
+  "headroom_ft": 6.7,
+  "rail_height_ft": 3.5,
+  "door_height_ft": 6.5,
+  "comfort_pitch_deg": 35.0,
+  "max_pitch_deg": 38.0,
+  "person_ft": 6.0
+}
