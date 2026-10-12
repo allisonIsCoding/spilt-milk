@@ -1,11 +1,11 @@
-# Spilled Milk — Dairy Partner Shortlist (Bay Area / Nearby NorCal)
+# Spilt Milk — Dairy Partner Shortlist (Bay Area / Nearby NorCal)
 
 Tracker and outreach status: [`fundraising.md`](fundraising.md). This file is the
 research pass, kept in full. Public business contacts from that pass are included
 so the next person does not have to re-find them. Personal emails for the
-Spilled Milk co-leads are not listed.
+Spilt Milk co-leads are not listed.
 
-**For:** Allison Jacobs · Spilled Milk (Burning Man 2027) · SF-based · ~$80k budget  
+**For:** Allison Jacobs · Spilt Milk (Burning Man 2027) · SF-based · ~$80k budget  
 **Pass:** First research shortlist (public sources only; no outreach yet)  
 **Date:** Oct 6, 2026 (PT)
 
@@ -22,7 +22,7 @@ Spilled Milk co-leads are not listed.
   - Private events form: https://pointreyescheese.com/pages/private-events (hospitality replies within ~2 business days)
   - Donation request form (cheese and/or farm educational experiences; submit ≥4 weeks ahead): https://pointreyescheese.com/pages/donation-request-form
   - The Fork: fork@pointreyescheese.com · General: info@pointreyescheese.com · Marketing/media: leigh@pointreyescheese.com
-- **Why they fit:** Working dairy with marketplace, reserved tastings, brunches/dinners, and an explicit private-event offering at The Fork overlooking Tomales Bay. Cheese Cares + donation desk already support Northern California fundraising; milk/cheese story aligns tightly with Spilled Milk.
+- **Why they fit:** Working dairy with marketplace, reserved tastings, brunches/dinners, and an explicit private-event offering at The Fork overlooking Tomales Bay. Cheese Cares + donation desk already support Northern California fundraising; milk/cheese story aligns tightly with Spilt Milk.
 - **Suggested ask:** Host a ticketed tasting/brunch fundraiser at The Fork; in-kind cheese boards for an SF launch; explore Cheese Cares–style promo or event sponsorship via donation form.
 - **Sources:** https://pointreyescheese.com/pages/private-events · https://pointreyescheese.com/pages/donation-request-form · https://pointreyescheese.com/pages/our-causes · https://pointreyescheese.com/pages/contact
 - **Fit:** **A**
@@ -55,7 +55,7 @@ Spilled Milk co-leads are not listed.
 - **Location:** Petaluma (HQ/production); products widely in Bay Area retail & farmers markets
 - **Website:** https://www.strausfamilycreamery.com/
 - **Public contact:** Donation request form (monetary sponsorship *or* in-kind product; ≥30 days’ notice): https://www.strausfamilycreamery.com/contact-us/donations/ · Community: https://www.strausfamilycreamery.com/about/community-involvement/
-- **Why they fit:** Iconic Marin/Sonoma organic milk brand with a formal donations desk and large 2025 giving footprint (monetary + product). Glass-bottle milk/cream is a near-perfect Spilled Milk product match; less of a public “event ranch,” more sponsor/in-kind.
+- **Why they fit:** Iconic Marin/Sonoma organic milk brand with a formal donations desk and large 2025 giving footprint (monetary + product). Glass-bottle milk/cream is a near-perfect Spilt Milk product match; less of a public “event ranch,” more sponsor/in-kind.
 - **Suggested ask:** In-kind milk, cream, yogurt, or ice cream for launch parties + tasting fundraisers; event sponsorship / product gift baskets. Frame arts + local community carefully—preference is mission-aligned orgs/events.
 - **Sources:** https://www.strausfamilycreamery.com/contact-us/donations/ · https://www.strausfamilycreamery.com/about/community-involvement/
 - **Fit:** **B** (sponsor/in-kind standout; hosting unlikely on-site)
@@ -77,7 +77,7 @@ Spilled Milk co-leads are not listed.
 - **Website:** https://cowgirlcreamery.com/
 - **Public contact:** Donation / cheese requests: community@cowgirlcreamery.com · General: same · Contact page: https://cowgirlcreamery.com/pages/contact-us
 - **Why they fit:** Beloved Bay Area artisan cheese brand with an explicit donation email for cheese requests; strong storytelling and SF cultural recognition (Ferry Building shop closed 2021; brand still highly visible). Better as product/sponsor than large-venue host.
-- **Suggested ask:** In-kind cheese for a Spilled Milk launch tasting; small co-branded tasting or pop-up collaboration.
+- **Suggested ask:** In-kind cheese for a Spilt Milk launch tasting; small co-branded tasting or pop-up collaboration.
 - **Sources:** https://cowgirlcreamery.com/pages/contact-us · https://cowgirlcreamery.com/pages/our-creamery
 - **Fit:** **B**
 
@@ -149,9 +149,9 @@ Spilled Milk co-leads are not listed.
 ---
 
 ## Research gaps / next steps
-Several Tier A/B targets publish clear **forms or emails** for events and donations (Point Reyes, Straus, Cowgirl, Marin French, Achadinha)—those should be first. Cash sponsors (Straus, Clover) often prefer **mission-aligned / 501(c)(3)** partners: clarify Spilled Milk’s fiscal-sponsor or nonprofit status before cash asks, and lead with community arts + local dairy storytelling for in-kind. Next pass should (1) draft personalized outreach for the top 3, (2) confirm current private-event capacity/pricing at Point Reyes, Marin French, Achadinha, Petaluma Creamery, and Valley Ford, (3) check whether any run arts or Burning Man–adjacent sponsorships historically, and (4) optionally add CMAB / Real California Milk community programs only if a public partnership path exists beyond food-bank campaigns.
+Several Tier A/B targets publish clear **forms or emails** for events and donations (Point Reyes, Straus, Cowgirl, Marin French, Achadinha)—those should be first. Cash sponsors (Straus, Clover) often prefer **mission-aligned / 501(c)(3)** partners: clarify Spilt Milk’s fiscal-sponsor or nonprofit status before cash asks, and lead with community arts + local dairy storytelling for in-kind. Next pass should (1) draft personalized outreach for the top 3, (2) confirm current private-event capacity/pricing at Point Reyes, Marin French, Achadinha, Petaluma Creamery, and Valley Ford, (3) check whether any run arts or Burning Man–adjacent sponsorships historically, and (4) optionally add CMAB / Real California Milk community programs only if a public partnership path exists beyond food-bank campaigns.
 
 ## Start here (top 3)
 1. **Point Reyes Farmstead** — clearest dual path (private events form + donation desk for cheese/experiences).  
 2. **Marin French Cheese** — ranch already runs public event series + private gatherings; easy creative-fundraiser story.  
-3. **Straus Family Creamery** — best formal product/cash sponsorship channel and the strongest literal “milk” brand match for Spilled Milk (pair with a separate host venue if needed).
+3. **Straus Family Creamery** — best formal product/cash sponsorship channel and the strongest literal “milk” brand match for Spilt Milk (pair with a separate host venue if needed).

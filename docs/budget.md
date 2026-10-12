@@ -1,6 +1,6 @@
 # Budget
 
-Working total for Spilled Milk at Burning Man 2027: **about $80,000**.
+Working total for Spilt Milk at Burning Man 2027: **about $80,000**.
 
 That figure is the planning number for the Black Rock City Honoraria ask. The ask
 is modeled on co-lead Quentin Helgren's Library of Light letter of intent. It is

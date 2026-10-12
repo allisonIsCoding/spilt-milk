@@ -1,4 +1,4 @@
-# Spilled Milk
+# Spilt Milk
 
 A wood-built, burnable milk carton for Burning Man, standing upright with its spout
 pulled open. Milk spills out as a slide, and the inside is a railed staircase that
@@ -20,7 +20,7 @@ The same repo tracks the 2027 project: key dates, grants, budget, and sourcing.
 ## Project tracking
 
 Co-leads are Allison Jacobs and Quentin Helgren. The shared Google Calendar
-named "Spilled Milk" is the live date source.
+named "Spilt Milk" is the live date source.
 [docs/key-dates.md](docs/key-dates.md) is a snapshot last synced October 8, 2026.
 Times below are Pacific.
 
@@ -74,7 +74,7 @@ The command exits non-zero when a stair check fails, so it is safe to use in CI.
 | `docs/stair-analysis.md` | Why the stairs look the way they do, with the width sweep. |
 | `docs/open-questions.md` | What still needs an answer (several need an engineer). |
 | `docs/image-prompts.md` | Prompts for Gemini and other image generators. |
-| `docs/key-dates.md` | Snapshot of the shared Spilled Milk calendar. Live source is still the calendar. |
+| `docs/key-dates.md` | Snapshot of the shared Spilt Milk calendar. Live source is still the calendar. |
 | `docs/funding.md` | Honoraria, Rbhu Gives Back, CCI Quick Grant, and Zellerbach. |
 | `docs/budget.md` | Working ~$80k total. Named line items are TBD, not guessed. |
 | `docs/open-decisions.md` | LLC vs fiscal sponsor. Not legal advice. |

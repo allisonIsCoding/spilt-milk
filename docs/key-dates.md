@@ -1,6 +1,6 @@
 # Key dates
 
-Snapshot of the shared Google Calendar named **Spilled Milk**. That calendar is the
+Snapshot of the shared Google Calendar named **Spilt Milk**. That calendar is the
 live source. This page is a copy for the repo, not a second calendar.
 
 **Last synced:** October 8, 2026 (Pacific).
@@ -15,8 +15,8 @@ not a deadline copied off a funder's page.
 Calendar titles use a color convention:
 
 - Green: `Mutant Vehicle | ...`
-- Blue: `Spilled Milk | Honoraria | ...`, `Spilled Milk | Art Grant | ...`, or
-  `Spilled Milk | Registration | ...`
+- Blue: `Spilt Milk | Honoraria | ...`, `Spilt Milk | Art Grant | ...`, or
+  `Spilt Milk | Registration | ...`
 
 Tracks below match those titles: Honoraria, Art Grant, Registration, Mutant Vehicle,
 and Event. The Event row (Burning Man itself) has no color in the convention above.

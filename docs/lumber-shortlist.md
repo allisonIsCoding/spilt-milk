@@ -1,9 +1,9 @@
-# Spilled Milk — Bay Area / NorCal Recycled & Cheap Sturdy Lumber Shortlist
+# Spilt Milk — Bay Area / NorCal Recycled & Cheap Sturdy Lumber Shortlist
 
 Summary, burn flags, and call order: [`materials.md`](materials.md). This file is
 the research pass, kept in full. Prices are examples from that pass, not quotes.
 
-**Project:** Spilled Milk · Burning Man 2027 · Allison Jacobs (SF)  
+**Project:** Spilt Milk · Burning Man 2027 · Allison Jacobs (SF)  
 **Use:** ~40 ft burnable, climbable, large-scale interactive structure  
 **Research date:** Tue Oct 6, 2026 (PT)  
 **Sources verified via public websites / directories as of 2025–2026 listings**
@@ -46,7 +46,7 @@ For a **climbable ~40 ft burnable** piece, prioritize **new untreated Douglas fi
 - **Price notes:** Call for current sheet; example listing seen: pressure-treated 4×10×19' piece ~$80 (flag — see safety). Otherwise price unknown.
 - **Structural vs cladding:** Deconstruction-sourced **framing and posts can be structural** if graded/inspected; also lots of finish materials suited to cladding.
 - **Pickup / delivery:** In-store pickup for online orders; delivery unknown — ask.
-- **Burn / treated flags:** **They do stock pressure-treated lumber** (listed as-is). For Spilled Milk, **explicitly refuse PT / ACQ / CCA**. Also watch for painted framing and glue-laminated leftovers.
+- **Burn / treated flags:** **They do stock pressure-treated lumber** (listed as-is). For Spilt Milk, **explicitly refuse PT / ACQ / CCA**. Also watch for painted framing and glue-laminated leftovers.
 
 ### 4. The Lumber Baron
 - **Location:** 1140 Harbour Way South, Richmond, CA 94804 (moved from Albany; ~3.5-acre yard)
@@ -164,7 +164,7 @@ For a **climbable ~40 ft burnable** piece, prioritize **new untreated Douglas fi
 
 ---
 
-## Cross-cutting burn & materials safety (Spilled Milk)
+## Cross-cutting burn & materials safety (Spilt Milk)
 
 | Avoid for burnable structure | Prefer |
 | --- | --- |
@@ -191,7 +191,7 @@ Burning Man’s own “Burning Stuff” guidance: there are no fully “safe” 
 6. Ask every yard: *Do you have untreated DF or redwood posts/beams in X×Y × length? Any PT mixed in this pile? Delivery to SF warehouse / shop?*
 
 ## Open questions
-- Exact board-foot / linear-foot needs for Spilled Milk primary structure vs skin (needed before serious quoting).
+- Exact board-foot / linear-foot needs for Spilt Milk primary structure vs skin (needed before serious quoting).
 - Whether BM 2027 art placement / burn plan requires full structure burn vs partial symbolic burn (affects how aggressive salvage + paint risk can be).
 - Crane / forklift / flatbed access for long timbers at build site and transport to Black Rock City.
 - Engineer’s minimum species/grade and whether reclaimed can be used in primary load path or only cladding/secondary.
