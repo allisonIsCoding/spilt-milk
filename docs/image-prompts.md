@@ -1,6 +1,6 @@
 # Image prompts (for Gemini and other generators)
 
-Current design: the upright carton, classic red and white, with the slide coming out of a
+Current design: the upright carton, baby blue and white, with the slide coming out of a
 tear in the spout-end wall. Numbers come from `config/default.json`
 (see `outputs/report.md`).
 
@@ -31,8 +31,8 @@ and proportions only, not the colours"). Then change one thing at a time in foll
 > toward the spout tip. The whole diamond-shaped top of the spout is open, facing up at the
 > sky, dark inside.
 >
-> COLOURS: Classic retro red-and-white milk carton. The walls are crisp white with bold red
-> panels and bands; the roof panels and fin are red. The long side carries large, simple,
+> COLOURS: Retro baby-blue-and-white milk carton. The walls are crisp white with soft
+> baby blue (pale sky blue) panels and bands; the roof panels and fin are baby blue. The long side carries large, simple,
 > retro lettering that says "MILK". No brand names, logos, or other text.
 >
 > THE SLIDE: About a third of the way up the narrow spout-end wall (around 12 feet up),
@@ -60,7 +60,7 @@ and proportions only, not the colours"). Then change one thing at a time in foll
 
 > Photorealistic: a 40 ft tall wooden milk carton art installation standing upright on the
 > Burning Man playa at golden hour. One-gallon proportions (25 x 19 ft footprint, tall walls,
-> short gable roof with a thin fin). Classic retro red-and-white carton paint with big "MILK"
+> short gable roof with a thin fin). Retro baby-blue-and-white carton paint with big "MILK"
 > lettering, no brands. The spout on one narrow end is pulled open like a real carton, its
 > tip just above the fin, the diamond-shaped top open to the sky. About 12 ft up that end
 > wall, a jagged tear gushes glossy white milk that becomes a sculpted white wooden slide

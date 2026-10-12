@@ -15,7 +15,7 @@ a yes or no. **Open** means it is still undecided (see `open-questions.md`).
   fin. The whole diamond on top of the spout is the opening. It is open for the look.
 - **Decided.** No wrap-around slide. The slide comes out of a tear in the spout-end wall at
   the 12 ft landing and runs straight out (about 32 ft, steepest 30 degrees) into a puddle.
-- **Decided.** Classic red-and-white milk carton colours (replaces blue and white).
+- **Decided.** Baby blue and white milk carton colours (replaces the earlier red and white).
 - **Assumed.** The roof/fin split was read off a reference picture; spout tip 4.8 ft out and
   1.4 ft above the fin, crease positions scaled up from Allison's sketch.
 - **Assumed.** Spiral stairs 4.5 ft clear at 31 degrees, landings at every corner plus one
