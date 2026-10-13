@@ -39,7 +39,8 @@ dates doc. Also: [docs/funding.md](docs/funding.md),
 [docs/budget.md](docs/budget.md),
 [docs/open-decisions.md](docs/open-decisions.md),
 [docs/fundraising.md](docs/fundraising.md),
-[docs/materials.md](docs/materials.md).
+[docs/materials.md](docs/materials.md),
+[docs/lighting-and-projection.md](docs/lighting-and-projection.md).
 Design questions stay in [docs/open-questions.md](docs/open-questions.md).
 
 ## Quick start
@@ -82,6 +83,7 @@ The command exits non-zero when a stair check fails, so it is safe to use in CI.
 | `docs/dairy-partner-shortlist.md` | Full Bay Area dairy shortlist behind the tracker. |
 | `docs/materials.md` | Lumber sources and burn / treated-wood flags. |
 | `docs/lumber-shortlist.md` | Full Bay Area lumber shortlist behind the summary. |
+| `docs/lighting-and-projection.md` | Night lighting, Resolume projection mapping, projectors, dust, power, rough costs (Tyler call, Oct 13, 2026). |
 | `outputs/` | Generated drawings and report (committed so they show on GitHub). |
 
 ## Status
