@@ -33,7 +33,8 @@ and proportions only, not the colours"). Then change one thing at a time in foll
 >
 > COLOURS: Retro baby-blue-and-white milk carton. The walls are crisp white with soft
 > baby blue (pale sky blue) panels and bands; the roof panels and fin are baby blue. The long side carries large, simple,
-> retro lettering that says "MILK". No brand names, logos, or other text.
+> retro lettering that says "MILK", drawn as a baby blue
+> outline only (hollow letters, white inside, not filled in). No brand names, logos, or other text.
 >
 > THE SLIDE: About a third of the way up the narrow spout-end wall (around 12 feet up),
 > near one corner, the wall is torn open in a jagged rip, as if the carton has burst. A thick,
