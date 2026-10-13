@@ -16,6 +16,7 @@ a yes or no. **Open** means it is still undecided (see `open-questions.md`).
 - **Decided.** No wrap-around slide. The slide comes out of a tear in the spout-end wall at
   the 12 ft landing and runs straight out (about 32 ft, steepest 30 degrees) into a puddle.
 - **Decided.** Baby blue and white milk carton colours (replaces the earlier red and white).
+- **Decided.** The word "MILK" on the long side is a baby blue outline, not filled in.
 - **Assumed.** The roof/fin split was read off a reference picture; spout tip 4.8 ft out and
   1.4 ft above the fin, crease positions scaled up from Allison's sketch.
 - **Assumed.** Spiral stairs 4.5 ft clear at 31 degrees, landings at every corner plus one

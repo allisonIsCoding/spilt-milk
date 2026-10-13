@@ -60,7 +60,7 @@ and proportions only, not the colours"). Then change one thing at a time in foll
 
 > Photorealistic: a 40 ft tall wooden milk carton art installation standing upright on the
 > Burning Man playa at golden hour. One-gallon proportions (25 x 19 ft footprint, tall walls,
-> short gable roof with a thin fin). Retro baby-blue-and-white carton paint with big "MILK"
+> short gable roof with a thin fin). Retro baby-blue-and-white carton paint with big outlined (hollow) "MILK"
 > lettering, no brands. The spout on one narrow end is pulled open like a real carton, its
 > tip just above the fin, the diamond-shaped top open to the sky. About 12 ft up that end
 > wall, a jagged tear gushes glossy white milk that becomes a sculpted white wooden slide
