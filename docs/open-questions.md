@@ -25,7 +25,8 @@ From the Oct 13, 2026 call with Tyler. Details are in `lighting-and-projection.m
   carton during the day, projection mapped at night. `design-decisions.md` says no
   "lost child" panel. Keep that decision, or change it?
 - **"MILK" lettering:** use a stroke (outline) instead of a different fill color?
-- **Wash-light brand:** "Gobe", as heard on the call. Confirm the name.
+- **Wash lights:** Govee Outdoor Flood Lights 2. How many sets cover the base?
+  Does the schedule work offline on playa?
 - **"Eco milk":** this came up when talking about power. What did it mean?
 - **Inside:** chandeliers, glowing udders, a milk fountain, more wash lights, or a
   Korova-style milk bar. Which, if any?

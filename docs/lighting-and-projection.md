@@ -28,8 +28,18 @@ been changed.
 
 - **Night only.** Don't plan daytime lighting.
 - **Uplighting.** Put the lights at the base and aim them up the carton walls.
-- **Wash lights.** Tyler recommends "Gobe" wash lights, which can be daisy-chained.
-  The brand name is spelled as heard on the call, so confirm it before looking up models.
+- **Wash lights: Govee Outdoor Flood Lights 2.** Tyler recommends these. They come as
+  a daisy-chained set ([product page](https://us.govee.com/products/outdoor-flood-lights?variant=44604067184825)).
+  Checked on the Govee US site on Oct 13, 2026:
+  - Model H7058 (6 pack) is $179.99. Model H7057 (4 pack) is $119.99.
+  - Each light is over 1,000 lm. White runs from 2700K to 6500K, plus RGBIC color.
+  - Runs on 24 V. The listed wattage is 72 W for the set.
+  - Weather ratings: lights IP66, control box IP65, power adapter only IP44.
+    Rated for -20°C to 45°C.
+  - Controlled over Wi-Fi and Bluetooth through the Govee app, Matter, Alexa, or Google.
+  - **For the playa:** there's no Wi-Fi out there. Check that the on/off schedule runs
+    without the cloud, or put a plain dusk-to-dawn timer on the power. The IP44 adapter
+    needs a dust cover. Lights sitting in the daytime sun may run past the 45°C rating.
 - **Hide the fixture, show the light.** On the ground, cover the side of each light that
   people would see. Use an L-shaped piece of plywood, or pieces that look like plastic milk
   cartons. People should see the light on the carton, not the bulb.
@@ -116,7 +126,7 @@ Tyler's ideas for the inside. None of them is decided.
 
 | Item | Tyler's estimate | Notes |
 |---|---|---|
-| Lights and cords | ~$500 | Outside wash lights and cabling. |
+| Lights and cords | ~$500 | Govee Outdoor Flood Lights 2 ($179.99 per 6 pack) plus cabling. |
 | Two projectors | ~$3,000 | Less if used ones turn up on Facebook Marketplace. |
 | Resolume Arena | ~$600, or ~$300 on sale | The site lists €799, about $895. About $450 at 50% off. See above. |
 | Computer to run Resolume | TBD | Not priced. |
@@ -136,6 +146,6 @@ from a phone call, not quotes. `budget.md` carries them with that label.
    prototype goes well.
 3. Look at short-throw projectors in the 5,000 to 7,000 lumen range, and check
    Facebook Marketplace for used ones.
-4. Confirm the wash-light brand ("Gobe") and what "Eco milk" meant.
+4. Work out how many Govee flood light sets cover the base. Confirm what "Eco milk" meant.
 5. Decide generator vs solar, and whether to add a daytime missing-child outline (see
    `open-questions.md`).
