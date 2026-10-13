@@ -20,7 +20,7 @@
 From the Oct 13, 2026 call with Tyler. Details are in `lighting-and-projection.md`.
 
 - **Solar sizing.** Solar is the plan. What is the nightly load for the lights,
-  projectors, and computer, and what size array, battery, and inverter does it need?
+  projector, and computer, and what size array, battery, and inverter does it need?
 - **Daytime missing-child outline?** Tyler suggested a missing-child outline on the
   carton during the day, projection mapped at night. `design-decisions.md` says no
   "lost child" panel. Keep that decision, or change it?

@@ -13,8 +13,8 @@ been changed.
 - Projection map the carton at night with Resolume **Arena**, not Avenue.
 - Power needs are small. **The plan is solar.** Tyler's 4 kW generator figure is only a
   reference point for sizing.
-- Rough cost: about $500 for lights and cords, about $3,000 for two projectors (used if
-  possible), Resolume, and a computer to run it.
+- **One projector, not two.** The working estimate is **about $2,500** for lights and
+  cords, one projector, and Resolume Arena. The computer is extra.
 - Next step: build a tiny prototype.
 
 ## Power
@@ -25,7 +25,7 @@ been changed.
   thought would be more than enough. (When we said solar, he joked, "eco milk.") Use
   4 kW only as an upper-bound reference. Size the solar system from the real load.
 - Rough load to size against: the Govee flood light sets are listed at 72 W per 6
-  pack. Add the projectors and the computer, which will draw much more. Use each
+  pack. Add the projector and the computer, which will draw much more. Use each
   projector's spec sheet. Multiply by the hours of darkness each night.
 - The timer and the Govee power adapters plug into regular 120 V outlets. The solar
   setup needs an inverter that stays on all night.
@@ -58,7 +58,7 @@ been changed.
   - Aim the light sensor away from the uplights and the projector. If the piece's own
     light reaches the sensor, the timer can read that as daylight and turn
     everything off.
-- **Before the burn:** take out the lights, cords, shields, projectors, and the computer.
+- **Before the burn:** take out the lights, cords, shields, projector, and the computer.
   Plastic shields and glued plywood are on the do-not-burn list in `materials.md`.
 
 ## Inside ideas
@@ -136,21 +136,30 @@ Tyler's ideas for the inside. None of them is decided.
   A missing-child outline painted on during the day would reverse that decision, so
   Allison and Quentin need to decide. It is not changed here.
 
-## Rough costs (Tyler's estimate)
+## Rough costs
 
-| Item | Tyler's estimate | Notes |
+**Working estimate: about $2,500, with one projector.** Tyler priced two projectors.
+The team has since decided on one projector to cut cost. The other numbers are
+Tyler's, from the call.
+
+One projector can only map the part of the carton it can see. Pick the one face or
+feature (the child's face, for example) that matters most at night, and size the
+projector to it.
+
+| Item | Estimate | Notes |
 |---|---|---|
 | Lights and cords | ~$500 | Govee Outdoor Flood Lights 2 ($179.99 per 6 pack) plus cabling. |
-| Two projectors | ~$3,000 | Less if used ones turn up on Facebook Marketplace. |
+| One projector | ~$1,500 | Half of Tyler's ~$3,000 for two. Less if a used one turns up on Facebook Marketplace. |
 | Resolume Arena | ~$600, or ~$300 on sale | The site lists €799, about $895. About $450 at 50% off. See above. |
 | Computer to run Resolume | TBD | Not priced. |
 | Projector enclosures (window + fans) | TBD | Not priced. |
 | Solar power system | TBD | Decided: solar. Not priced. Size it from the real load (see Power). |
 | Dusk-to-dawn timer(s) | ~$12 each | UltraPro 86940-T1. |
 
-Roughly $4,000 to $4,400 for lights, projectors, and Arena, depending on the Resolume
-price. That leaves out the computer, enclosures, and power. These are estimates
-from a phone call, not quotes. `budget.md` carries them with that label.
+Lights ($500), one projector ($1,500), and Arena on sale (about $450) come to about
+**$2,500**. At Arena's full list price it would be about $2,900. That leaves out the
+computer, the enclosure, and power. These are estimates, not quotes. `budget.md`
+carries the same number with that label.
 
 ## Next steps
 
@@ -159,9 +168,9 @@ from a phone call, not quotes. `budget.md` carries them with that label.
    is watermarked).
 2. **Buy Resolume Arena in the Black Friday sale** (Fri Nov 27, 2026) if the
    prototype goes well.
-3. Look at short-throw projectors in the 5,000 to 7,000 lumen range, and check
-   Facebook Marketplace for used ones.
+3. Pick the one surface to map. Then look at short-throw projectors in the 5,000 to
+   7,000 lumen range sized to it, and check Facebook Marketplace for used ones.
 4. Work out how many Govee flood light sets cover the base.
-5. Add up the nightly load (lights + projectors + computer) to size the solar system.
+5. Add up the nightly load (lights + projector + computer) to size the solar system.
 6. Decide whether to add a daytime missing-child outline (see
    `open-questions.md`).
