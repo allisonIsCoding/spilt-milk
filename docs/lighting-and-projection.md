@@ -152,7 +152,7 @@ projector to it.
 | One projector | ~$1,500 | Half of Tyler's ~$3,000 for two. Less if a used one turns up on Facebook Marketplace. |
 | Resolume Arena | ~$600, or ~$300 on sale | The site lists €799, about $895. About $450 at 50% off. See above. |
 | Computer to run Resolume | TBD | Not priced. |
-| Projector enclosures (window + fans) | TBD | Not priced. |
+| Projector enclosure (window + fans) | TBD | Not priced. |
 | Solar power system | TBD | Decided: solar. Not priced. Size it from the real load (see Power). |
 | Dusk-to-dawn timer(s) | ~$12 each | UltraPro 86940-T1. |
 
