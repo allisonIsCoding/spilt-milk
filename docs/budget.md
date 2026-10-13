@@ -14,6 +14,7 @@ are **TBD**. Do not back-fill numbers that are not written down.
 | Working total | ~$80,000 | The planning total | Honoraria ask. Not an allocation. |
 | Materials / power: solar lighting | TBD | Included | Called out under materials and power. No separate dollar amount recorded. |
 | Night projection mapping | TBD | Optional | Milk flowing down the slide, and escalating "missing kid" carton visuals. |
+| Lighting and projection (Tyler's estimate) | ~$4,000–4,400 | Not yet allocated | From a call with lighting expert Tyler on Oct 13, 2026: ~$500 lights and cords, ~$3,000 for two projectors (used if possible), Resolume Arena (~$450 on a 50% sale, ~$895 at list). Computer, enclosures, and power not priced. Estimates, not quotes. See `lighting-and-projection.md`. |
 | All other costs | TBD | Not itemized | No other line has a number in this repo. Add a row when a real figure is written down. |
 
 Projection mapping does not change the design decision of no "lost child" panel
@@ -27,3 +28,4 @@ Yards, burn flags, and what to avoid are in `materials.md`.
 - Grant deadlines that this total is aimed at: `funding.md`
 - LLC vs fiscal sponsor, which changes who can hold the funds: `open-decisions.md`
 - Engineer and fire-plan questions: `open-questions.md`
+- Lighting, projection, and power notes: `lighting-and-projection.md`

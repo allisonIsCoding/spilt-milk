@@ -15,6 +15,21 @@
 - **Wood slide.** A painted-wood slide needs a surface that is smooth, durable in dust and
   wind, and safe for sliding.
 
+## Lighting and projection
+
+From the Oct 13, 2026 call with Tyler. Details are in `lighting-and-projection.md`.
+
+- **Power: generator or solar?** Tyler thinks a 4 kW generator is probably enough.
+  `budget.md` says solar lighting. Which one?
+- **Daytime missing-child outline?** Tyler suggested a missing-child outline on the
+  carton during the day, projection mapped at night. `design-decisions.md` says no
+  "lost child" panel. Keep that decision, or change it?
+- **"MILK" lettering:** use a stroke (outline) instead of a different fill color?
+- **Wash-light brand:** "Gobe", as heard on the call. Confirm the name.
+- **"Eco milk":** this came up when talking about power. What did it mean?
+- **Inside:** chandeliers, glowing udders, a milk fountain, more wash lights, or a
+  Korova-style milk bar. Which, if any?
+
 ## For an engineer and BRC art safety
 
 - Structure of a 40 ft tipped wood shell, and the footing for a carton leaning on one corner.
@@ -35,4 +50,5 @@
 Design questions stay on this page. Dates are in `key-dates.md`. Grants, the
 working budget, and the LLC vs fiscal sponsor decision are in `funding.md`,
 `budget.md`, and `open-decisions.md` (that last one is not legal advice).
-Lumber yards and what not to burn are in `materials.md`.
+Lumber yards and what not to burn are in `materials.md`. Lighting, projection,
+and power notes are in `lighting-and-projection.md`.
