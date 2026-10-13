@@ -19,15 +19,14 @@
 
 From the Oct 13, 2026 call with Tyler. Details are in `lighting-and-projection.md`.
 
-- **Power: generator or solar?** Tyler thinks a 4 kW generator is probably enough.
-  `budget.md` says solar lighting. Which one?
+- **Solar sizing.** Solar is the plan. What is the nightly load for the lights,
+  projectors, and computer, and what size array, battery, and inverter does it need?
 - **Daytime missing-child outline?** Tyler suggested a missing-child outline on the
   carton during the day, projection mapped at night. `design-decisions.md` says no
   "lost child" panel. Keep that decision, or change it?
 - **"MILK" lettering:** use a stroke (outline) instead of a different fill color?
 - **Wash lights:** Govee Outdoor Flood Lights 2. How many sets cover the base?
   Does the schedule work offline on playa?
-- **"Eco milk":** this came up when talking about power. What did it mean?
 - **Inside:** chandeliers, glowing udders, a milk fountain, more wash lights, or a
   Korova-style milk bar. Which, if any?
 

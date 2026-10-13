@@ -11,18 +11,24 @@ been changed.
 - Only light the piece at night. Use uplighting: wash lights on the ground, aimed up the
   carton, with the glare side hidden behind a shield.
 - Projection map the carton at night with Resolume **Arena**, not Avenue.
-- Power needs are small. Tyler thinks a 4 kW generator is probably enough.
+- Power needs are small. **The plan is solar.** Tyler's 4 kW generator figure is only a
+  reference point for sizing.
 - Rough cost: about $500 for lights and cords, about $3,000 for two projectors (used if
   possible), Resolume, and a computer to run it.
 - Next step: build a tiny prototype.
 
 ## Power
 
-- The lighting does not draw much. Tyler thinks **a 4 kW generator is probably enough.**
-- "Eco milk" came up on this topic. What it means isn't clear from the notes, so
-  confirm it before relying on it.
-- **Conflict:** `budget.md` lists "solar lighting" under materials and power. A
-  generator is a different plan. Which to use is now an open question.
+- **Decided: solar.** The team has more experience with solar than with generators.
+  This matches the "solar lighting" line in `budget.md`.
+- Tyler said the lighting doesn't draw much. He suggested a 4 kW generator, which he
+  thought would be more than enough. (When we said solar, he joked, "eco milk.") Use
+  4 kW only as an upper-bound reference. Size the solar system from the real load.
+- Rough load to size against: the Govee flood light sets are listed at 72 W per 6
+  pack. Add the projectors and the computer, which will draw much more. Use each
+  projector's spec sheet. Multiply by the hours of darkness each night.
+- The timer and the Govee power adapters plug into regular 120 V outlets. The solar
+  setup needs an inverter that stays on all night.
 
 ## Lighting the outside
 
@@ -38,12 +44,20 @@ been changed.
     Rated for -20°C to 45°C.
   - Controlled over Wi-Fi and Bluetooth through the Govee app, Matter, Alexa, or Google.
   - **For the playa:** there's no Wi-Fi out there. Check that the on/off schedule runs
-    without the cloud, or put a plain dusk-to-dawn timer on the power. The IP44 adapter
+    without the cloud, or rely on the plug-in dusk-to-dawn timer below. The IP44 adapter
     needs a dust cover. Lights sitting in the daytime sun may run past the 45°C rating.
 - **Hide the fixture, show the light.** On the ground, cover the side of each light that
   people would see. Use an L-shaped piece of plywood, or pieces that look like plastic milk
   cartons. People should see the light on the carton, not the bulb.
-- **Dusk-to-dawn timer.** Switch the lights on and off automatically.
+- **Dusk-to-dawn timer: UltraPro Photocell Timer, model 86940-T1.** Tyler recommends
+  this one ([Home Depot](https://www.homedepot.com/p/UltraPro-Photocell-Timer-Dusk-to-Dawn-2-Grounded-Outlet-2-4-6-8-hour-On-Off-Button-Outdoor-86940-T1/336144053)).
+  It is a plug-in outdoor timer with a light sensor and two grounded outlets. It can
+  run dusk to dawn, or count down 2, 4, 6, or 8 hours from dusk. It has an on/off
+  button. Home Depot listed it at $11.98 in a search result on Oct 13, 2026. The
+  product page blocked a direct check.
+  - Aim the light sensor away from the uplights and the projector. If the piece's own
+    light reaches the sensor, the timer can read that as daylight and turn
+    everything off.
 - **Before the burn:** take out the lights, cords, shields, projectors, and the computer.
   Plastic shields and glued plywood are on the do-not-burn list in `materials.md`.
 
@@ -131,7 +145,8 @@ Tyler's ideas for the inside. None of them is decided.
 | Resolume Arena | ~$600, or ~$300 on sale | The site lists €799, about $895. About $450 at 50% off. See above. |
 | Computer to run Resolume | TBD | Not priced. |
 | Projector enclosures (window + fans) | TBD | Not priced. |
-| Generator (4 kW) | TBD | Not priced. Conflicts with the solar plan. |
+| Solar power system | TBD | Decided: solar. Not priced. Size it from the real load (see Power). |
+| Dusk-to-dawn timer(s) | ~$12 each | UltraPro 86940-T1. |
 
 Roughly $4,000 to $4,400 for lights, projectors, and Arena, depending on the Resolume
 price. That leaves out the computer, enclosures, and power. These are estimates
@@ -146,6 +161,7 @@ from a phone call, not quotes. `budget.md` carries them with that label.
    prototype goes well.
 3. Look at short-throw projectors in the 5,000 to 7,000 lumen range, and check
    Facebook Marketplace for used ones.
-4. Work out how many Govee flood light sets cover the base. Confirm what "Eco milk" meant.
-5. Decide generator vs solar, and whether to add a daytime missing-child outline (see
+4. Work out how many Govee flood light sets cover the base.
+5. Add up the nightly load (lights + projectors + computer) to size the solar system.
+6. Decide whether to add a daytime missing-child outline (see
    `open-questions.md`).
