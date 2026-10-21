@@ -3,7 +3,7 @@
 Snapshot of the shared Google Calendar named **Spilt Milk**. That calendar is the
 live source. This page is a copy for the repo, not a second calendar.
 
-**Last synced:** October 8, 2026 (Pacific).
+**Last synced:** October 8, 2026 (Pacific). The Rbhu Gives Back close date was updated October 19, 2026 (Pacific) from the official page.
 
 All times are Pacific (`America/Los_Angeles`): **PT**, and **PDT** or **PST** when the
 calendar entry says so.
@@ -32,8 +32,8 @@ from calendar notes, not from their own holds.
 | Tue Oct 13, 2026 | — | Art Grant | Noted, not a hold | Zellerbach Community Arts cycle | Skipped. Next working target is Jan 21, 2027. |
 | Wed Oct 14, 2026 | 4:00–5:30pm PT | Honoraria | On calendar | BRC Honoraria LOI Q&A session | RSVP. October is Pacific Daylight Time. |
 | Thu Oct 15, 2026 | 11:59am PT | Art Grant | On calendar | CCI Quick Grant due | Up to $600 for professional advice or coaching. Activity cannot start until after the Nov 16 notification. https://cciarts.org/quick-grant/ |
-| Thu Oct 15, 2026 | all day | Art Grant | On calendar | Rbhu Gives Back applications close | Pro-bono or discounted structural engineering. https://www.rbhu.org/rbhu-gives-back |
 | Thu Oct 22, 2026 | 10:00–11:30am PT | Honoraria | On calendar | BRC Honoraria LOI Q&A session (second) | RSVP. |
+| Sun Oct 25, 2026 | all day | Art Grant | On calendar | Rbhu Gives Back applications close | Pro-bono or discounted structural engineering. https://www.rbhu.org/rbhu-gives-back |
 | Thu Oct 29, 2026 | 5:00pm PDT | Honoraria | On calendar | 2027 BRC Honoraria Letter of Intent due | Submit via Burner Profile on a computer, not a phone. |
 | Mon Nov 16, 2026 | — | Art Grant | From the CCI note | CCI Quick Grant notification | Earliest the funded activity can start is after this notification. Not its own calendar hold. Year is the 2026 cycle. |
 | Tue Dec 8, 2026 | all day | Honoraria | On calendar | LOI notifications | If invited: start the LLC / fiscal-sponsor CPA consult. See `open-decisions.md`. |
@@ -57,7 +57,7 @@ notifications approx Mar 1–7, 2027.
 
 ### Art Grant
 
-CCI Quick Grant and Rbhu Gives Back both close Oct 15, 2026 (CCI at 11:59am PT).
+CCI Quick Grant closes Oct 15, 2026 at 11:59am PT. Rbhu Gives Back applications close Sun Oct 25, 2026.
 CCI activity waits on the Nov 16 notification. Zellerbach's Oct 13, 2026 cycle was
 skipped; working target is Jan 21, 2027, 5:00pm PT.
 

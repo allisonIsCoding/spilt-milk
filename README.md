@@ -22,6 +22,7 @@ The same repo tracks the 2027 project: key dates, grants, budget, and sourcing.
 Co-leads are Allison Jacobs and Quentin Helgren. The shared Google Calendar
 named "Spilt Milk" is the live date source.
 [docs/key-dates.md](docs/key-dates.md) is a snapshot last synced October 8, 2026.
+The Rbhu Gives Back close date was updated October 19, 2026 (Pacific) from the official page.
 Times below are Pacific.
 
 **Next deadlines:**
@@ -30,8 +31,8 @@ Times below are Pacific.
 |---|---|---|
 | Wed Oct 14, 4:00–5:30pm PT | Honoraria | BRC Honoraria LOI Q&A (RSVP) |
 | Thu Oct 15, 11:59am PT | Art Grant | CCI Quick Grant due (up to $600) |
-| Thu Oct 15, all day | Art Grant | Rbhu Gives Back applications close |
 | Thu Oct 22, 10:00–11:30am PT | Honoraria | BRC Honoraria LOI Q&A (second session) |
+| Sun Oct 25, all day | Art Grant | Rbhu Gives Back applications close |
 | Thu Oct 29, 5:00pm PDT | Honoraria | 2027 BRC Honoraria letter of intent due |
 
 Later dates, including the approximate Mutant Vehicle windows, are in the key
