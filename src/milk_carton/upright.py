@@ -8,11 +8,12 @@ eaves (body_ft) to the ridge (body_ft + roof_ft); the fin sits on top. The
 classic pull-open spout is the top of the gable end at X = W, pulled out.
 
 Stairs: a spiral against the four walls, a landing in each corner (and partway
-along the long walls), up to the "eave deck", a full floor just below the roof
-that doubles as a lookout.
+along the long walls and the spout end), up to the "eave deck", a full floor
+just below the roof that doubles as a lookout.
 
-The slide: milk pours out of a tear in the spout-end wall at the landing there
-and runs straight out into a puddle. The spout at the top is open for the look.
+The slide: milk pours out of a tear centered on the spout-end wall, at the
+mid-wall landing there, and runs straight out into a puddle. The spout at the
+top is open for the look.
 """
 
 from __future__ import annotations
@@ -61,7 +62,9 @@ class Upright:
     # ---- spiral stairs ------------------------------------------------------------
     def _spiral(self):
         """Flights against the four walls, a landing in each corner, and a mid-wall landing
-        on any wall too long for one flight. Every flight has the same pitch."""
+        on any wall too long for one flight. The spout end is split as well, even when it
+        is shorter than that, so the slide can leave from a landing in the middle of that
+        wall. Every flight has the same pitch."""
         c, w, a = self.cfg, self.w, self.cfg.wall_ft
         bx, by = self.L - a, self.W - a
         corners = [(a, a + w, a, a + w), (bx - w, bx, a, a + w), (bx - w, bx, by - w, by), (a, a + w, by - w, by)]
@@ -91,7 +94,9 @@ class Upright:
                 lo, hi = (r0[3], r1[2]) if i == 1 else (r1[3], r0[2])
                 x0, x1 = r0[0], r0[1]
                 span = hi - lo
-                pieces = 2 if span > c.max_flight_run_ft else 1
+                # i == 1 is the spout end: always break it with a centred landing when it
+                # can hold one, so the tear sits in the middle of the end wall.
+                pieces = 2 if span > c.max_flight_run_ft or (i == 1 and span > w) else 1
                 run = (span - (pieces - 1) * w) / pieces
                 ys = lo
                 order = []
@@ -162,11 +167,18 @@ class Upright:
         cands = [(z, r, k) for z, r, k in self.lands if r[1] >= self.L - c.wall_ft - 1e-6 and z > 0]
         return min(cands, key=lambda t: abs(t[0] - c.side_outlet_ft)) if cands else None
 
-    # ---- slide: side outlet ----------------------------------------------------
+    # ---- slide: centred outlet on the spout-end wall ---------------------------
     def side_slide(self, n: int = 120) -> list[Point]:
-        """(X, z) centreline for a slide leaving the spout-end wall at outlet height."""
+        """(X, z) centreline for a slide leaving the centred landing on the spout-end wall."""
         c = self.cfg
-        x0, z0 = self.L, c.side_outlet_ft
+        out = self.outlet_landing()
+        # The tear is the landing itself. Use that height when it is the landing the
+        # outlet was aimed at, so the run is measured from the floor you step off.
+        if out is not None and abs(out[0] - c.side_outlet_ft) <= 0.3:
+            z0 = out[0]
+        else:
+            z0 = c.side_outlet_ft
+        x0 = self.L
         drop = z0 - 0.6
         # gentle pour: level, roll over, straight at the target grade, ease out
         g = math.tan(math.radians(c.side_slide_deg))
@@ -281,7 +293,7 @@ def plan(u: Upright) -> str:
     c, W, L, w = u.cfg, u.W, u.L, u.w
     line = u.side_slide()
     out_z, out_r, _ = u.outlet_landing()
-    oy = (out_r[2] + out_r[3]) / 2
+    oy = (out_r[2] + out_r[3]) / 2  # middle of the end wall (the centred landing)
     KP = 15.0
     xmin, ymin = -4, -5
     xmax, ymax = line[-1][0] + 12, W + 4
@@ -362,13 +374,13 @@ def plan(u: Upright) -> str:
         ("h", "Spiral stairs"),
         ("s", f"{w:.1f} ft clear, two-way, {u.pitch:.0f}°"),
         ("s", f"{u.n} flights, longest {u.run:.1f} ft;"),
-        ("s", "long walls have a mid-wall landing"),
+        ("s", "long walls and the spout end have a mid-wall landing"),
         ("s", f"Longest fall {u.max_rise:.1f} ft (flight to landing)"),
         ("s", f"Eave deck (lookout) at {u.deck_z:g} ft"),
         ("s", ""),
         ("h", "Slide"),
         ("s", f"Out of a tear in the spout-end wall"),
-        ("s", f"at the {out_z:.1f} ft landing"),
+        ("s", f"at the {out_z:.1f} ft landing, centered"),
         ("s", f"About {u.side_run:.0f} ft long, steepest {u.side_max_deg:.0f}°"),
         ("s", ""),
         ("h", "Spout"),
@@ -413,8 +425,8 @@ def report(u: Upright) -> str:
         f"ridge {u.ridge:g} ft, fin top {u.H:g} ft, spout tip {u.tip_z:.1f} ft (open for the look).",
         f"- Spiral stairs: {u.w:.1f} ft clear, {u.n} flights at {u.pitch:.0f}° (longest {u.run:.1f} ft, longest fall "
         f"{u.max_rise:.1f} ft), open well {u.well_x:.0f} x {u.well_y:.0f} ft, eave deck (lookout) {u.deck_z:g} ft.",
-        f"- Slide: out of a tear in the spout-end wall at {c.side_outlet_ft:g} ft, about {u.side_run:.0f} ft of run, "
-        f"steepest {u.side_max_deg:.0f}°.",
+        f"- Slide: out of a tear centered on the spout-end wall at the {c.side_outlet_ft:g} ft landing, "
+        f"about {u.side_run:.0f} ft of run, steepest {u.side_max_deg:.0f}°.",
         "", "## Checks", "",
     ]
     out += [f"- {lvl.upper()}: {m}" for lvl, m in u.issues] or ["- All checks pass."]

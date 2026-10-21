@@ -12,10 +12,10 @@ a yes or no. **Open** means it is still undecided (see `open-questions.md`).
   Allison's sketch): the end of the gable hinges at the top of the wall, the roof corners and
   side flaps bend along creases, the fin lifts toward the end, and the tip ends up above the
   fin. The whole diamond on top of the spout is the opening. It is open for the look.
-- **Decided.** The slide comes out of a tear in the spout-end wall from one of the middle landings and runs straightish out (about 32 ft, steepest 30 degrees) into a puddle.
+- **Decided.** The slide comes out of a tear centered on the spout-end wall, from the mid-wall landing there (about 8.9 ft), and runs straight out (about 23 ft, steepest 30 degrees) into a puddle.
 - **Decided.** Baby blue and white milk carton colours
 - **Decided.** The word "MILK" on the long side is a baby blue outline, not filled in.
 - **Assumed.** The roof/fin split was read off a reference picture; spout tip 4.8 ft out and
   1.4 ft above the fin, crease positions scaled up from Allison's sketch.
-- **Assumed.** Spiral stairs 4.5 ft clear at 31 degrees, landings at every corner plus one
-  partway along each long wall (longest fall about 5.4 ft), up to a lookout floor at 24 ft.
+- **Assumed.** Spiral stairs 4.5 ft clear at 35 degrees, landings at every corner plus one
+  partway along each long wall and the spout end (longest fall about 6.1 ft), up to a lookout floor at 24 ft.

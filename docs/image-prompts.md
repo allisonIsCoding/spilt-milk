@@ -36,11 +36,11 @@ and proportions only, not the colours"). Then change one thing at a time in foll
 > retro lettering that says "MILK", drawn as a baby blue
 > outline only (hollow letters, white inside, not filled in). No brand names, logos, or other text.
 >
-> THE SLIDE: About a third of the way up the narrow spout-end wall (around 12 feet up),
-> near one corner, the wall is torn open in a jagged rip, as if the carton has burst. A thick,
+> THE SLIDE: A bit under halfway up the narrow spout-end wall (around 9 feet up),
+> centered on that wall, the wall is torn open in a jagged rip, as if the carton has burst. A thick,
 > glossy white stream of milk gushes out of the tear and becomes a smooth sculpted wooden
 > slide painted milk-white. It leaves the tear nearly level, curves over, slopes down at a
-> gentle playground angle, and eases out about 30 feet from the carton into a wide, low,
+> gentle playground angle, and eases out about 23 feet from the carton into a wide, low,
 > splashy puddle of milk on the ground. A few slim white posts support the slide. People
 > are sliding down it and landing in the puddle.
 >
@@ -63,8 +63,8 @@ and proportions only, not the colours"). Then change one thing at a time in foll
 > Burning Man playa at golden hour. One-gallon proportions (25 x 19 ft footprint, tall walls,
 > short gable roof with a thin fin). Retro baby-blue-and-white carton paint with big outlined (hollow) "MILK"
 > lettering, no brands. The spout on one narrow end is pulled open like a real carton, its
-> tip just above the fin, the diamond-shaped top open to the sky. About 12 ft up that end
-> wall, a jagged tear gushes glossy white milk that becomes a sculpted white wooden slide
+> tip just above the fin, the diamond-shaped top open to the sky. About 9 ft up that end
+> wall, centered, a jagged tear gushes glossy white milk that becomes a sculpted white wooden slide
 > curving down into a wide milk puddle, with people sliding. People in costumes for scale.
 > No tilted carton, no wrap-around slide, no logos, no scaffolding.
 
@@ -72,5 +72,5 @@ and proportions only, not the colours"). Then change one thing at a time in foll
 
 - "Make the walls taller and the roof shorter: the roof and fin are only the top quarter."
 - "The spout tip must stick out past the end wall and rise just above the fin."
-- "Only one tear, on the narrow end with the spout, about a third of the way up."
+- "Only one tear, centered on the narrow end with the spout, about 9 ft up."
 - "Keep the slide straight out from the tear; it does not go around the carton."
