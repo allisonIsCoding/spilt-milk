@@ -32,18 +32,30 @@ def test_spiral_stairs_fit_under_the_eaves():
     assert u.roof_z(u.cfg.wall_ft) - u.deck_z >= u.cfg.headroom_ft
     assert u.lap_rise >= u.cfg.headroom_ft
     assert u.flights[-1][1] == pytest.approx(u.deck_z)
-    assert u.max_rise < 6                            # a fall only goes as far as the next landing
+    assert u.n == 7
+    # a fall only goes as far as the next landing, and stays under the headroom
+    assert u.max_rise < u.cfg.headroom_ft
+    assert u.max_rise == pytest.approx(6.12, abs=0.02)
 
 
-def test_slide_leaves_from_a_landing_on_the_spout_end_wall():
+def test_slide_leaves_from_the_center_of_the_spout_end_wall():
     u = model()
     assert not any(lvl == "fail" for lvl, _ in u.issues)
     z, r, _ = u.outlet_landing()
     assert z == pytest.approx(u.cfg.side_outlet_ft, abs=0.3)
+    assert z == pytest.approx(8.9, abs=0.05)
     assert r[1] == pytest.approx(u.L - u.cfg.wall_ft)
+    # the tear is the mid-wall landing, halfway across the end wall
+    assert (r[2] + r[3]) / 2 == pytest.approx(u.W / 2)
+    assert r[3] - r[2] == pytest.approx(u.w)
     line = u.side_slide()
-    assert line[0] == (u.L, u.cfg.side_outlet_ft)
+    assert line[0] == pytest.approx((u.L, z))
     assert u.side_max_deg <= 31
+    assert round(u.side_run) == 23
+    svg = upright.plan(u)
+    assert "at the 8.9 ft landing, centered" in svg
+    assert "long walls and the spout end have a mid-wall landing" in svg
+    assert "Tear in the end wall at 8.9 ft" in svg
 
 
 def test_outlet_off_a_landing_is_flagged():

@@ -39,14 +39,14 @@ class Config:
     length_ft: float | None = 25.3  # along the ridge; the spout end is width_ft across (None = square)
     max_flight_run_ft: float = 10.0  # walls longer than this get a mid-wall landing
     wall_ft: float = 0.5            # wall thickness
-    spiral_flights: int = 6         # flights in the spiral up to the eave deck
+    spiral_flights: int = 7         # flights in the spiral up to the eave deck (one lap; the spout end is split)
     eave_deck_ft: float = 24.0      # full floor just under the roof (headroom limit at the walls)
     spout_tip_out_ft: float = 4.8   # opened spout: how far the tip sticks out past the end wall
     spout_tip_above_ft: float = 1.4  # opened spout: tip height above the top of the fin
     spout_crease_back_ft: float = 2.0  # opened spout: where the side flap meets the lifted fin, back from the end wall
     roof_bend_side_back_ft: float = 4.5  # opened spout: where the roof bends reach the long sides, back from the end wall
     fin_lift_back_ft: float = 8.7   # opened spout: where the fin starts lifting, back from the end wall
-    side_outlet_ft: float = 12.0    # slide: height of the tear in the spout-end wall (a landing there)
+    side_outlet_ft: float = 8.9     # slide: height of the centred mid-wall landing on the spout-end wall
     side_slide_deg: float = 24.0    # slide: target grade
 
     # --- stairs -----------------------------------------------------------
