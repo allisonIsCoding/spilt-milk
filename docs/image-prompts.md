@@ -36,7 +36,7 @@ and proportions only, not the colours"). Then change one thing at a time in foll
 > retro lettering that says "MILK", drawn as a baby blue
 > outline only (hollow letters, white inside, not filled in). No brand names, logos, or other text.
 >
-> THE SLIDE: A bit under halfway up the narrow spout-end wall (around 9 feet up),
+> THE SLIDE: A bit under halfway up the narrow spout-end wall (around 12 feet up),
 > centered on that wall, the wall is torn open in a jagged rip, as if the carton has burst. A thick,
 > glossy white stream of milk gushes out of the tear and becomes a smooth sculpted wooden
 > slide painted milk-white. It leaves the tear nearly level, curves over, slopes down at a
