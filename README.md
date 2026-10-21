@@ -21,19 +21,22 @@ The same repo tracks the 2027 project: key dates, grants, budget, and sourcing.
 
 Co-leads are Allison Jacobs and Quentin Helgren. The shared Google Calendar
 named "Spilt Milk" is the live date source.
-[docs/key-dates.md](docs/key-dates.md) is a snapshot last synced October 8, 2026.
-The Rbhu Gives Back close date was updated October 19, 2026 (Pacific) from the official page.
+[docs/key-dates.md](docs/key-dates.md) was checked against official pages on
+October 19, 2026. The calendar was last copied into that page on October 8, 2026.
 Times below are Pacific.
 
 **Next deadlines:**
 
 | When | Track | What |
 |---|---|---|
-| Wed Oct 14, 4:00–5:30pm PT | Honoraria | BRC Honoraria LOI Q&A (RSVP) |
-| Thu Oct 15, 11:59am PT | Art Grant | CCI Quick Grant due (up to $600) |
-| Thu Oct 22, 10:00–11:30am PT | Honoraria | BRC Honoraria LOI Q&A (second session) |
-| Sun Oct 25, all day | Art Grant | Rbhu Gives Back applications close |
-| Thu Oct 29, 5:00pm PDT | Honoraria | 2027 BRC Honoraria letter of intent due |
+| Thu Oct 22, 10:00–11:30am PDT | Honoraria | BRC Honoraria LOI Q&A. The 2027 events list says 12:00 PM and prints no time zone. Check the RSVP confirmation. |
+| Sun Oct 25, 2026 | Art Grant | Rbhu Gives Back applications close. Selected projects are notified before the end of 2026. |
+| Thu Oct 29, 5:00pm PDT | Honoraria | 2027 BRC Honoraria letter of intent due, via Burner Profiles, on a computer. |
+
+Passed as of October 19, 2026: the Oct 5 and Oct 14 Honoraria Q&A sessions, and
+the CCI Quick Grant deadline (Thu Oct 15, 11:59am PT). This repo does not record
+whether the Quick Grant was submitted. Rbhu's close date moved from Oct 15 to
+Oct 25.
 
 Later dates, including the approximate Mutant Vehicle windows, are in the key
 dates doc. Also: [docs/funding.md](docs/funding.md),
@@ -76,7 +79,7 @@ The command exits non-zero when a stair check fails, so it is safe to use in CI.
 | `docs/stair-analysis.md` | Why the stairs look the way they do, with the width sweep. |
 | `docs/open-questions.md` | What still needs an answer (several need an engineer). |
 | `docs/image-prompts.md` | Prompts for Gemini and other image generators. |
-| `docs/key-dates.md` | Snapshot of the shared Spilt Milk calendar. Live source is still the calendar. |
+| `docs/key-dates.md` | Snapshot of the shared Spilt Milk calendar. Official pages rechecked October 19, 2026. |
 | `docs/funding.md` | Honoraria, Rbhu Gives Back, CCI Quick Grant, and Zellerbach. |
 | `docs/budget.md` | Working ~$80k total. Named line items are TBD, not guessed. |
 | `docs/open-decisions.md` | LLC vs fiscal sponsor. Not legal advice. |

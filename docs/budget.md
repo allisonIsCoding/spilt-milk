@@ -6,6 +6,10 @@ That figure is the planning number for the Black Rock City Honoraria ask. The as
 is modeled on co-lead Quentin Helgren's Library of Light letter of intent. It is
 not a locked budget, and this repo does not split it into line-item amounts.
 
+The Honoraria FAQ, checked October 19, 2026, says to request partial funding.
+Burning Man typically funds 40–60% of the total budget, and grants over $20,000
+are rare. See `funding.md`.
+
 Line items that planning has already named are listed below. Their dollar amounts
 are **TBD**. Do not back-fill numbers that are not written down.
 

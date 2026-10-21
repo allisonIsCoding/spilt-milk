@@ -5,6 +5,9 @@ Bay Area and nearby NorCal dairies that might host or sponsor a fundraiser.
 including public contacts and sources, is `dairy-partner-shortlist.md`
 (researched Oct 6, 2026, PT).
 
+This page has no funder deadlines. Grant dates were last verified October 19, 2026
+in `key-dates.md` and `funding.md`.
+
 Suggested asks in that shortlist are starting points, not offers. The working
 budget is about $80,000 (`budget.md`). Cash asks should wait until the LLC vs
 fiscal sponsor question is clearer (`open-decisions.md`).
